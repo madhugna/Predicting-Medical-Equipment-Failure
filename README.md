@@ -22,7 +22,7 @@ Phase 1: Problem Understanding & Industry Analysis
 Objective:
 To develop a predictive maintenance solution for critical hospital medical devices that minimizes equipment downtime, enhances patient safety, and optimizes operational costs by leveraging data-driven failure prediction, automated maintenance scheduling, and centralized monitoring dashboards.
 
-Related file: Phase1_ProblemUnderstanding.pdf
+Related file: https://github.com/madhugna/Predicting-Medical-Equipment-Failure/raw/b621232f95f4d190aca49ac515c01b7ec74ea6a2/Phase1_ProblemUnderstanding.pdf
 
 Phase 2: Org Setup & Configuration
 
