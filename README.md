@@ -17,7 +17,7 @@ Value:
 
 -> Provides decision-makers with actionable insights via dashboards and reports.
 
-Problem statement: 
+Problem statement: https://github.com/madhugna/Predicting-Medical-Equipment-Failure/blob/ecba8296d929634a67792a741b9aedded45fa270/Healthcare%20CRM%20Project.pdf
 
 Documenttation: https://docs.google.com/document/d/1LSXfgzqOPdHyMrVziW0Cy7ThPaWJKUHj_Mh6Zknd3eE/edit?usp=sharing
 
