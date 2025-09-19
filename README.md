@@ -27,6 +27,8 @@ Objective:
 To develop a predictive maintenance solution for critical hospital medical devices that minimizes equipment downtime, enhances patient safety, and optimizes operational costs by leveraging data-driven failure prediction, automated maintenance scheduling, and centralized monitoring dashboards.
 
 
+
+
 Phase 2: Org Setup & Configuration
 
 Objective:
