@@ -21,23 +21,30 @@ Problem statement: https://github.com/madhugna/Predicting-Medical-Equipment-Fail
 
 Documenttation: https://docs.google.com/document/d/1LSXfgzqOPdHyMrVziW0Cy7ThPaWJKUHj_Mh6Zknd3eE/edit?usp=sharing
 
-Phase 1: Problem Understanding & Industry Analysis
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+✔️ Phase 1: Problem Understanding & Industry Analysis
 
 Objective:
 To develop a predictive maintenance solution for critical hospital medical devices that minimizes equipment downtime, enhances patient safety, and optimizes operational costs by leveraging data-driven failure prediction, automated maintenance scheduling, and centralized monitoring dashboards.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Phase 2: Org Setup & Configuration
+✔️ Phase 2: Org Setup & Configuration
 
 Objective:
 To establish a fully configured Salesforce development environment by setting up a Salesforce Developer Org, integrating it with VS Code and Salesforce CLI, and connecting it to a version-controlled GitHub repository, ensuring a structured and collaborative foundation for building the healthcare equipment failure prediction solution.
 
-Phase 3: Data Modeling & Relationships
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+✔️ Phase 3: Data Modeling & Relationships
 
 Objective:
 To design a robust Salesforce data model by creating custom objects, fields, and relationships that accurately represent medical devices, their usage logs, predictive failure insights, and maintenance tasks—enabling seamless tracking, prediction, and management of equipment health within the healthcare CRM system.
 
-Phase 4: Prediction Model Integration
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+✔️ Phase 4: Prediction Model Integration
 
 Objective:
 
@@ -51,7 +58,9 @@ To expose prediction results for retrieval via Apex.
 
 To ensure predictions are accurate, consistent, and updated for each device.
 
-Phase 5: Apex Programming (Developer)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+✔️ Phase 5: Apex Programming (Developer)
 
 Objective:
 
@@ -65,7 +74,9 @@ To prepare server-side controllers that LWC components can call.
 
 To keep the Apex layer modular, reusable, and error-handled.
 
-Phase 6: User Interface Development (LWC Dashboard)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+✔️ Phase 6: User Interface Development (LWC Dashboard)
 
 Objective:
 
@@ -79,7 +90,9 @@ To embed the LWC inside the Medical Equipment Failure Predictor Lightning app.
 
 To ensure the UI is responsive, user-friendly, and aligned with healthcare workflows.
 
-Phase 7: Integration & External Access
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+✔️ Phase 7: Integration & External Access
 
 Objective:
 
@@ -93,7 +106,9 @@ To ensure secure authentication and authorization in all external integrations.
 
 To design the app for scalability with real-world medical device data streams.
 
-Phase 8: Data Management & Deployment
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+✔️ Phase 8: Data Management & Deployment
 
 Objective:
 
@@ -107,7 +122,9 @@ To use GitHub for source control and maintain version history.
 
 To ensure the app is production-ready and stable after deployment.
 
-Phase 9: Reporting, Dashboards & Security Review
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+✔️ Phase 9: Reporting, Dashboards & Security Review
 
 Objective:
 
@@ -121,7 +138,9 @@ To ensure only authorized roles can see prediction results and sensitive device 
 
 To align the system with healthcare standards (HIPAA, GDPR for device/patient data).
 
-Phase 10: Final Presentation & Demo Day
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+✔️ Phase 10: Final Presentation & Demo Day
 
 Objective:
 
