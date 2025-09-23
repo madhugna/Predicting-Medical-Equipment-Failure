@@ -1,0 +1,51 @@
+public with sharing class PredictionChartController {
+
+    public class BucketResult {
+        @AuraEnabled public String label;
+        @AuraEnabled public Integer count;
+        public BucketResult(String label, Integer count){
+            this.label = label;
+            this.count = count;
+        }
+    }
+
+    @AuraEnabled(cacheable=true)
+    public static List<BucketResult> getUsageBuckets(Integer numBuckets, Integer recordLimit){
+        List<Medical_Device__c> devices = [
+            SELECT Usage_Hours__c 
+            FROM Medical_Device__c 
+            WHERE Usage_Hours__c != null 
+            LIMIT :recordLimit
+        ];
+
+        List<BucketResult> result = new List<BucketResult>();
+        if(devices.isEmpty() || numBuckets <= 0) return result;
+
+        Decimal minVal = devices[0].Usage_Hours__c;
+        Decimal maxVal = devices[0].Usage_Hours__c;
+
+        for(Medical_Device__c d : devices){
+            if(d.Usage_Hours__c < minVal) minVal = d.Usage_Hours__c;
+            if(d.Usage_Hours__c > maxVal) maxVal = d.Usage_Hours__c;
+        }
+
+        Decimal bucketSize = (maxVal - minVal)/numBuckets;
+
+        for(Integer i=0;i<numBuckets;i++){
+            Decimal start = minVal + bucketSize*i;
+            Decimal endValue = (i == numBuckets-1) ? maxVal : (minVal + bucketSize*(i+1));
+
+            Integer count = 0;
+            for(Medical_Device__c d : devices){
+                if(d.Usage_Hours__c >= start && (i == numBuckets-1 ? d.Usage_Hours__c <= endValue : d.Usage_Hours__c < endValue)){
+                    count++;
+                }
+            }
+
+            String label = Math.round(start) + '-' + Math.round(endValue);
+            result.add(new BucketResult(label, count));
+        }
+
+        return result;
+    }
+}
