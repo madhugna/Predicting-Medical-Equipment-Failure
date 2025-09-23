@@ -1,0 +1,27 @@
+@IsTest
+public class PredictionChartControllerTest {
+    @IsTest
+    static void testGetUsageBuckets() {
+        // Insert sample devices
+        List<Medical_Device__c> devices = new List<Medical_Device__c>();
+        for(Integer i=1;i<=50;i++){
+            devices.add(new Medical_Device__c(
+                Usage_Hours__c = i * 5
+            ));
+        }
+        insert devices;
+
+        Test.startTest();
+        List<PredictionChartController.BucketResult> results = PredictionChartController.getUsageBuckets(5, 1000);
+        Test.stopTest();
+
+        System.assertNotEquals(0, results.size(), 'Buckets should be returned');
+        System.assertEquals(5, results.size(), 'There should be 5 buckets');
+
+        Integer totalCount = 0;
+        for(PredictionChartController.BucketResult br : results){
+            totalCount += br.count;
+        }
+        System.assertEquals(50, totalCount, 'All inserted records should be counted');
+    }
+}
