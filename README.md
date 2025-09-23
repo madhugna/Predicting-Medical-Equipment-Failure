@@ -25,28 +25,28 @@ Documenttation: https://docs.google.com/document/d/1LSXfgzqOPdHyMrVziW0Cy7ThPaWJ
 
 ✔️ Phase 1: Problem Understanding & Industry Analysis
 
-Objective:
+*Objective:*
 To develop a predictive maintenance solution for critical hospital medical devices that minimizes equipment downtime, enhances patient safety, and optimizes operational costs by leveraging data-driven failure prediction, automated maintenance scheduling, and centralized monitoring dashboards.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ✔️ Phase 2: Org Setup & Configuration
 
-Objective:
+*Objective:*
 To establish a fully configured Salesforce development environment by setting up a Salesforce Developer Org, integrating it with VS Code and Salesforce CLI, and connecting it to a version-controlled GitHub repository, ensuring a structured and collaborative foundation for building the healthcare equipment failure prediction solution.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ✔️ Phase 3: Data Modeling & Relationships
 
-Objective:
+*Objective:*
 To design a robust Salesforce data model by creating custom objects, fields, and relationships that accurately represent medical devices, their usage logs, predictive failure insights, and maintenance tasks—enabling seamless tracking, prediction, and management of equipment health within the healthcare CRM system.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ✔️ Phase 4: Prediction Model Integration
 
-Objective:
+*Objective:*
 
 To build and train the Einstein Prediction Model using Medical_Device__c data.
 
@@ -62,7 +62,7 @@ To ensure predictions are accurate, consistent, and updated for each device.
 
 ✔️ Phase 5: Apex Programming (Developer)
 
-Objective:
+*Objective:*
 
 To create Apex classes that call the Einstein Prediction Service programmatically.
 
@@ -78,7 +78,7 @@ To keep the Apex layer modular, reusable, and error-handled.
 
 ✔️ Phase 6: User Interface Development (LWC Dashboard)
 
-Objective:
+*Objective:*
 
 To design a custom Lightning Web Component (LWC) that displays prediction scores.
 
@@ -94,7 +94,7 @@ To ensure the UI is responsive, user-friendly, and aligned with healthcare workf
 
 ✔️ Phase 7: Integration & External Access
 
-Objective:
+*Objective:*
 
 To prepare for integration with IoT or telemetry data sources (e.g., device usage logs).
 
@@ -110,7 +110,7 @@ To design the app for scalability with real-world medical device data streams.
 
 ✔️ Phase 8: Data Management & Deployment
 
-Objective:
+*Objective:*
 
 To migrate sample datasets of medical devices into Salesforce.
 
@@ -126,7 +126,7 @@ To ensure the app is production-ready and stable after deployment.
 
 ✔️ Phase 9: Reporting, Dashboards & Security Review
 
-Objective:
+*Objective:*
 
 To create Salesforce native Reports and Dashboards summarizing device risks.
 
@@ -142,7 +142,7 @@ To align the system with healthcare standards (HIPAA, GDPR for device/patient da
 
 ✔️ Phase 10: Final Presentation & Demo Day
 
-Objective:
+*Objective:*
 
 To demonstrate the full workflow: device → usage data → Einstein prediction → LWC dashboard.
 
