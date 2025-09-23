@@ -1,6 +1,6 @@
 # Predicting-Medical-Equipment-Failure
 
-Project Overview
+⭐**Project Overview**
 
 This project proposes a Healthcare CRM integrated with predictive analytics to monitor medical equipment performance, forecast potential failures, and trigger preventive maintenance.
 
