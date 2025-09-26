@@ -21,6 +21,8 @@ Problem statement: https://github.com/madhugna/Predicting-Medical-Equipment-Fail
 
 Documenttation: https://docs.google.com/document/d/1LSXfgzqOPdHyMrVziW0Cy7ThPaWJKUHj_Mh6Zknd3eE/edit?usp=sharing
 
+Demo Video: https://drive.google.com/file/d/1tcUypEPsN1poO1rlBrKjnI_-oU1e9BJA/view?usp=sharing
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ✔️ Phase 1: Problem Understanding & Industry Analysis
@@ -140,18 +142,11 @@ To align the system with healthcare standards (HIPAA, GDPR for device/patient da
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-✔️ Phase 10: Final Presentation & Demo Day
+✔️ Phase 10: Quality assurance and testing
 
 *Objective:*
 
-To demonstrate the full workflow: device → usage data → Einstein prediction → LWC dashboard.
+The goal of this phase is to ensure the Healthcare CRM system meets all functional, technical, and business requirements while maintaining high standards of performance, security, usability, and reliability. Quality Assurance (QA) and Testing act as the safety net of the project, detecting and addressing defects before deployment to production. For a healthcare-focused CRM, this step is particularly critical, as patient and medical equipment data must be handled with extreme accuracy and compliance to industry regulations such as HIPAA.
 
-To showcase the app (Medical Equipment Failure Predictor) with its prediction UI.
-
-To highlight how managers and technicians can act based on predictions.
-
-To present outcomes like reduced downtime, cost savings, and improved safety.
-
-To propose future scope (e.g., real-time IoT integration, advanced ML models in Python).
 
 
